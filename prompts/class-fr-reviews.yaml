@@ -1,0 +1,4 @@
+Name: Text Classification for French Product Reviews
+Language: French
+Prompt: Write a prompt to classify French product reviews as positive, negative, or neutral, based on the sentiment expressed in the text.
+Link: example.txt
