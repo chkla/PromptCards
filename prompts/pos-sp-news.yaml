@@ -1,4 +1,5 @@
 Name: Part-of-Speech Tagging for Spanish News Articles
+Author: joe
 Language: Spanish
 Prompt: Write a prompt to tag the parts of speech in Spanish news articles, including nouns, verbs, adjectives, and adverbs.
 Link: example.txt
