@@ -1,4 +1,5 @@
 Name: Named Entity Recognition for Financial Documents
+Author: joe
 Language: English
 Prompt: Write a prompt to extract the names of people, organizations, and locations mentioned in financial documents.
 Link: example.txt
