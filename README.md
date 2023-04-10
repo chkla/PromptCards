@@ -13,6 +13,8 @@ To create a PromptCard, simply copy the template below and fill in the relevant 
 Title: [Title of your prompt]
 Author: [Your name or organization]
 Date: [Date created or updated]
+Language: [Language of the prompt]
+Task: [NLP task]
 Version: [Version number, e.g., 1.0]
 ---
 
@@ -24,9 +26,15 @@ Version: [Version number, e.g., 1.0]
 
 [Insert the complete prompt text here, including any specific instructions or formatting.]
 
-# Research Task
+## Language
 
-[Insert your research task description here, including the addressed NLP task and labeling goal for your analysis]
+- Prompt Language: [Specify the language of the prompt, e.g., English]
+- Dataset Language: [Specify the language of the dataset to which the prompt is applied, e.g., English]
+
+## NLP Task
+
+- Task: [Specify the NLP task in more detail, e.g., sentiment analysis, named entity recognition, summarization]
+- Subtask: [If applicable, provide any subtask or variation related to the main NLP task, e.g., binary sentiment classification, multi-class sentiment classification]
 
 ## Example Input and Output
 
@@ -57,6 +65,7 @@ Version: [Version number, e.g., 1.0]
 ## Related Research and References
 
 [List any relevant research papers, articles, or resources that informed the creation of the prompt or are closely related to it, especially in the area of artificial annotation with generative models. Include proper citations where applicable.]
+
 
 ```
 
