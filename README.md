@@ -1,10 +1,10 @@
-# PromptCards: A GitHub Repository for Structured Prompt Sharing and Reuse in Artificial Annotation with Generative Models
+# PromptCards 🏷️: A GitHub Repository for Structured Prompt Sharing and Reuse in Artificial Annotation with Generative Models
 
 Welcome to the **PromptCards** repository! PromptCards are designed to facilitate prompt sharing and reuse in research, providing a structured template for documenting and comparing prompts, especially for artificial annotation using generative models. By using a consistent format, researchers can easily reuse existing prompts in new contexts and compare results across projects that have employed the same prompts.
 
 Artificial annotation with generative models often relies on the quality of a prompt to generate effective annotations for research projects. The success of these strategies hinges on the prompt's ability to elicit accurate and meaningful responses, essentially imitating human annotators. PromptCards aim to streamline this process, enabling researchers to focus on their research objectives and improve the application of generative models in artificial annotation.
 
-## PromptCard Template
+## 🏷️ PromptCard Template
 
 To create a PromptCard, simply copy the template below and fill in the relevant details. Share your PromptCard with the community by submitting it to the repository.
 
