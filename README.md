@@ -69,4 +69,6 @@ Version: [Version number, e.g., 1.0]
 
 ```
 
-We encourage you to contribute your PromptCards to the repository and engage with the community to improve and expand the range of available prompts. By working together, we can advance the application of generative models and artificial annotation strategies in research projects, particularly for imitating human annotators.
+We encourage you to contribute your PromptCards to the repository and engage with the community to improve and expand the range of available prompts
+
+Made with ❤️ and 🤖.
