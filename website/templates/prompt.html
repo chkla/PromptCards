@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Prompt Archive - {{ prompt.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <header>
+        <div class="header-container">
+          <div class="logo">
+                <a href="{{ url_for('home') }}">🏷️ Prompt Archive</a>
+          </div>
+          <nav>
+            <a href="/">Archive</a>
+            <a href="/upload">Upload</a>
+            <a href="/tool">Tool</a>
+            <a href="/about">About</a>
+          </nav>
+        </div>
+      </header>
+    <!-- (Header) -->
+    
+    <div class="container">
+      <div class="promptcard">
+        <div class="card-header">
+          <h1>{{ prompt.title }}</h1>
+          <div class="post-metadata">
+            <p>Added by: {{ prompt.addedby }}</p>
+            <p>Author: {{ prompt.author }}</p>
+            <p>Date: {{ prompt.date }}</p>
+            <p>Language: {{ prompt.language }}</p>
+            <p>Task: {{ prompt.task }}</p>
+
+          </div>
+        </div>
+        <div class="card-body">
+          {{ prompt.content | safe }}
+        </div>
+      </div>
+    </div>
+
+    <!-- (Footer) -->
+  </body>
+</html>
