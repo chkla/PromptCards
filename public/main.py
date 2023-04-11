@@ -11,7 +11,7 @@ app = Flask(__name__)
 def about():
     return render_template('about.html')
 
-@app.route('/prompt/')
+@app.route('./prompt/')
 def prompt_without_id():
     return redirect(url_for('home'))
 
@@ -23,7 +23,7 @@ def home():
     return render_template('index.html', prompts=prompts, total_prompts=total_prompts)
 """
 
-@app.route('/', methods=['GET'])
+@app.route('./', methods=['GET'])
 def home():
     prompts = fetch_prompts()
     total_prompts = len(prompts)
@@ -55,7 +55,7 @@ def home():
         filter_task=filter_task
     )
 
-@app.route('/prompt/<id>')
+@app.route('./prompt/<id>')
 def prompt(id):
     prompts = fetch_prompts()
     print(prompts)
