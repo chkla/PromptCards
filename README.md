@@ -66,6 +66,10 @@ Version: [Version number, e.g., 1.0]
 
 [List any relevant research papers, articles, or resources that informed the creation of the prompt or are closely related to it, especially in the area of artificial annotation with generative models. Include proper citations where applicable.]
 
+## Cite
+
+[Add the relevant publication]
+
 
 ```
 
