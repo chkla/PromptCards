@@ -12,8 +12,6 @@ When training large language models, the concept of "non-determinism" arises. Wi
 
 This project aims to establish a method for standardizing and sharing prompts, as well as validating the performance of a given prompt for a specific task on a particular dataset. We offer a way to evaluate various annotation prompts for a defined task. AnnotationPromptCards [![Google Slides](https://img.shields.io/badge/Archive-yellow?logo=google-slides)](https://huggingface.co/spaces/chkla/AnnotationPromptCards) serves as an archive of prompts for artificial annotation. Using the [![Google Slides](https://img.shields.io/badge/Playground-green?logo=google-slides)](https://huggingface.co/spaces/chkla/PromptCardsPlayground) tool, users can experiment with different prompts on their data.
 
-The project serves as a hub for sharing prompts, enabling users to test existing and new prompts. Our objective is to lower the barriers to using artificial annotators for testing purposes, while simultaneously promoting standardization, reliability and transparency of annotation templates in research and other domains.
-
 We encourage you to contribute your PromptCards to the repository and engage with the community to improve and expand the range of available prompts. Please use the following template:
 
 ## 🏷️ PromptCard Template
