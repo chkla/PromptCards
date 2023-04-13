@@ -7,6 +7,7 @@ language: en
 task: frames
 version: 1.0
 addedby: chkla
+keywords: policy frames, content moderation
 ---
 
 ## Prompt Description

@@ -1,10 +1,10 @@
 ---
-id: problem-solution-en-gilardi2023
-title: Problem/ Solution Frames
+id: topic-detection-gilardi2023
+title: Topic Detection
 author: Gilardi et al. 2023
 date: 11.4.2023
 language: en
-task: frames
+task: topic detection
 version: 1.0
 addedby: chkla
 ---
@@ -15,19 +15,17 @@ addedby: chkla
 
 ## Prompt Text
 
-Content moderation can be seen from two different perspectives:<br>
-• Content moderation can be seen as a PROBLEM; for example, as a restriction of free speech<br>
-• Content moderation can be seen as a SOLUTION; for example, as a protection from harmful speech<br>
-<br>
-For each tweet in the sample, follow these instructions:<br>
-1. Carefully read the text of the tweet, paying close attention to details.<br>
-2. Classify the tweet as describing content moderation as a problem, as a solution, or neither.<br>
-<br>
-Tweets should be classified as describing content moderation as a PROBLEM if they emphasize negative effects of content moderation, such as restrictions to free speech, or the biases that can emerge from decisions regarding what users are allowed to post.<br>
-<br>
-Tweets should be classified as describing content moderation as a SOLUTION if they emphasize positive effects of content moderation, such as protecting users from various kinds of harmful content, including hate speech, misinformation, illegal adult content, or spam.<br>
-<br>
-Tweets should be classified as describing content moderation as NEUTRAL if they do not emphasize possible negative or positive effects of content moderation, for example if they simply report on the content moderation activity of social media platforms without linking them to potential advantages or disadvantages for users or stakeholders.
+Tweets about content moderation may also discuss other related topics, such as:
+1. Section 230, which is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users (SECTION 230).
+2. The decision by many social media platforms, such as Twitter and Facebook, to suspend Donald Trump’s account (TRUMP BAN).
+3. Requests directed to Twitter’s support account or help center (TWITTER SUPPORT).
+4. Social media platforms’ policies and practices, such as community guidelines or terms of service (PLATFORM POLICIES).
+5. Complaints about platform’s policy and practices in deplatforming and content moderation or suggestions to suspend particular accounts, or complaints about accounts being suspended or reported (COMPLAINTS).
+6. If a text is not about the SECTION 230, COMPLAINTS, TRUMP BAN, TWIT- TER SUPPORT, and PLATFORM POLICIES, then it should be classified in OTHER class (OTHER).
+
+For each tweet in the sample, follow these instructions:
+1. Carefully read the text of the tweet, paying close attention to details.
+2. Please classify the following text according to topic (defined by function of the text, author’s purpose and form of the text). You can choose from the following classes: SECTION 230, TRUMP BAN, COMPLAINTS, TWITTER SUPPORT, PLATFORM POLICIES, and OTHER
 
 ## Language
 

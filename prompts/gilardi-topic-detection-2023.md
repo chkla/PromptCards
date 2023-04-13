@@ -1,10 +1,10 @@
 ---
-id: moderation-relevance-en-gilardi2023
-title: Content Moderation Relevance
+id: topic-detection-gilardi2023
+title: Topic Detection
 author: Gilardi et al. 2023
 date: 11.4.2023
 language: en
-task: relevance
+task: topic detection
 version: 1.0
 addedby: chkla
 ---
@@ -14,13 +14,18 @@ addedby: chkla
 [Briefly describe the purpose of the prompt and the context in which it is intended to be used, especially in the context of artificial annotation with generative models.]
 
 ## Prompt Text
-For each tweet in the sample, follow these instructions:<br>
-1. Carefully read the text of the tweet, paying close attention to details.<br>
-2. Carefully read the text of the tweet, paying close attention to details.<br>
-<br>
-Tweets should be coded as RELEVANT when they directly relate to content moderation, as defined above. This includes tweets that discuss: social media platforms’ content moderation rules and practices, governments’ regulation of online content moderation, and/or mild forms of content moderation like flagging.<br>
-<br>
-Tweets should be coded as IRRELEVANT if they do not refer to content moderation, as defined above, or if they are themselves examples of moderated content. This would include, for example, a Tweet by Donald Trump that Twitter has labeled as “disputed”, a tweet claiming that something is false, or a tweet containing sensitive content. Such tweets might be subject to content moderation, but are not discussing content moderation. Therefore, they should be coded as irrelevant for our purposes.
+
+Tweets about content moderation may also discuss other related topics, such as:
+1. Section 230, which is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users (SECTION 230).
+2. The decision by many social media platforms, such as Twitter and Facebook, to suspend Donald Trump’s account (TRUMP BAN).
+3. Requests directed to Twitter’s support account or help center (TWITTER SUPPORT).
+4. Social media platforms’ policies and practices, such as community guidelines or terms of service (PLATFORM POLICIES).
+5. Complaints about platform’s policy and practices in deplatforming and content moderation or suggestions to suspend particular accounts, or complaints about accounts being suspended or reported (COMPLAINTS).
+6. If a text is not about the SECTION 230, COMPLAINTS, TRUMP BAN, TWIT- TER SUPPORT, and PLATFORM POLICIES, then it should be classified in OTHER class (OTHER).
+
+For each tweet in the sample, follow these instructions:
+1. Carefully read the text of the tweet, paying close attention to details.
+2. Please classify the following text according to topic (defined by function of the text, author’s purpose and form of the text). You can choose from the following classes: SECTION 230, TRUMP BAN, COMPLAINTS, TWITTER SUPPORT, PLATFORM POLICIES, and OTHER
 
 ## Language
 

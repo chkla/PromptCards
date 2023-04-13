@@ -1,10 +1,10 @@
 ---
-id: topic-detection-gilardi2023
-title: Topic Detection
+id: stance-detectionen-gilardi2023
+title: Stance Detection
 author: Gilardi et al. 2023
 date: 11.4.2023
 language: en
-task: topic detection
+task: stance
 version: 1.0
 addedby: chkla
 ---
@@ -15,17 +15,11 @@ addedby: chkla
 
 ## Prompt Text
 
-Tweets about content moderation may also discuss other related topics, such as:<br>
-1. Section 230, which is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users (SECTION 230).<br>
-2. The decision by many social media platforms, such as Twitter and Facebook, to suspend Donald Trump’s account (TRUMP BAN).
-3. Requests directed to Twitter’s support account or help center (TWITTER SUPPORT).<br>
-4. Social media platforms’ policies and practices, such as community guidelines or terms of service (PLATFORM POLICIES).
-5. Complaints about platform’s policy and practices in deplatforming and content moderation or suggestions to suspend particular accounts, or complaints about accounts being suspended or reported (COMPLAINTS).<br>
-6. If a text is not about the SECTION 230, COMPLAINTS, TRUMP BAN, TWIT- TER SUPPORT, and PLATFORM POLICIES, then it should be classified in OTHER class (OTHER).<br>
-<br>
-For each tweet in the sample, follow these instructions:<br>
-1. Carefully read the text of the tweet, paying close attention to details.<br>
-2. Please classify the following text according to topic (defined by function of the text, author’s purpose and form of the text). You can choose from the following classes: SECTION 230, TRUMP BAN, COMPLAINTS, TWITTER SUPPORT, PLATFORM POLICIES, and OTHER<br>
+In the context of content moderation, Section 230 is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users. This means that if someone posts something illegal or harmful on a website, the website itself cannot be sued for allowing it to be posted. However, websites can still choose to moderate content and remove anything that violates their own policies.
+
+For each tweet in the sample, follow these instructions:
+1. Carefully read the text of the tweet, paying close attention to details.
+2. Classify the tweet as having a positive stance towards Section 230, a negative stance, or a neutral stance.
 
 ## Language
 
