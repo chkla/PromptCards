@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const languageValue = languageFilter.value;
         const taskValue = taskFilter.value;
 
-        const promptCards = document.querySelectorAll(".prompt-card");
+        const promptCards = document.querySelectorAll(".card");
         
         promptCards.forEach((card) => {
             const title = card.querySelector(".prompt-title").innerText.toLowerCase();
