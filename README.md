@@ -14,6 +14,7 @@ To create a PromptCard, simply copy the template below and fill in the relevant 
 ---
 Title: [Title of your prompt]
 Author: [Your name or organization]
+Paper: [Link to the paper]
 Date: [Date created or updated]
 Language: [Language of the prompt]
 Task: [NLP task]
