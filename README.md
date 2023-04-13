@@ -1,4 +1,4 @@
-# Annotation PromptCards 🏷️: A Way for Structured Prompt Sharing and Reuse in Artificial Annotation with Generative Models
+# AnnotationPromptCards 🏷️: A Way for Structured Prompt Sharing and Reuse in Artificial Annotation with Generative Models
 
 PromptCards are designed to facilitate prompt sharing and reuse in research, providing a structured template for documenting and comparing prompts, especially for artificial annotation using generative models. By using a consistent format, researchers can reuse existing prompts in new contexts and compare results across projects that have employed the same prompts.
 
