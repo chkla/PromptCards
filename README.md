@@ -4,8 +4,9 @@ PromptCards are designed to facilitate prompt sharing and reuse in research, pro
 
 Artificial annotation with generative models often relies on the quality of a prompt to generate effective annotations for research projects. The success of these strategies hinges on the prompt's ability to elicit accurate and meaningful responses, essentially imitating human annotators. PromptCards aim to streamline this process, enabling researchers to focus on their research objectives and improve the application of generative models in artificial annotation.
 
-Annotation PromptCards [Archive]
-Annotation PromptCards [Playground]
+Check out:
+* Annotation PromptCards [Archive]()
+* Annotation PromptCards [Playground]()
 
 ## 🏷️ PromptCard Template
 
