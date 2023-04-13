@@ -1,6 +1,0 @@
-Id: 2
-Name: Machine Translation for Chinese News Headlines
-Author: joe
-Language: Chinese
-Prompt: Write a prompt to translate Chinese news headlines into English, using a neural machine translation model.
-Link: example.txt

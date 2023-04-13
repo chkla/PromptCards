@@ -58,7 +58,6 @@ def home():
 @app.route('/prompt/<id>')
 def prompt(id):
     prompts = fetch_prompts()
-    print(prompts)
     prompt = next((p for p in prompts if p['id'] == id), None)
     if prompt is None:
         abort(404)
