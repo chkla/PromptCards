@@ -6,7 +6,7 @@ Check out ⬇️:
 * Annotation PromptCards [![Google Slides](https://img.shields.io/badge/Archive-yellow?logo=google-slides)](https://huggingface.co/spaces/chkla/AnnotationPromptCards)
 * Annotation PromptCards [![Google Slides](https://img.shields.io/badge/Playground-green?logo=google-slides)](https://huggingface.co/spaces/chkla/PromptCardsPlayground)
 
-Some studies have highlighted the potential of ChatGPT as a data annotation tool (Huang et al., 2023). For instance, Gilardi et al. (2023) reported that ChatGPT outperforms MTurk in four out of five tasks. This has prompted researchers to ask if we are witnessing the beginning of the end for manual linguistic data annotation (Kuzman et al., 2023).
+Some studies have highlighted the potential of generative models as a data annotation tool (Huang et al., 2023). For instance, Gilardi et al. (2023) reported that ChatGPT outperforms MTurk in four out of five tasks. This has prompted researchers to ask if we are witnessing the beginning of the end for manual linguistic data annotation (Kuzman et al., 2023).
 
 When training large language models, the concept of "non-determinism" arises. With zero-shot annotations using generative language models like ChatGPT, several factors influence the generative output. Consequently, similar inputs can yield different results. Reiss (2023) demonstrated the ambiguity of prompts and their predictions in an artificial annotation setting in his paper.
 
