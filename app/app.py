@@ -6,7 +6,7 @@ import json
 
 def load_prompts():
     prompts = []
-    prompt_dir = "prompt"
+    prompt_dir = "prompts"
 
     for filename in os.listdir(prompt_dir):
         if filename.endswith(".md"):
@@ -16,6 +16,7 @@ def load_prompts():
                     "id": prompt.get("id"),
                     "title": prompt.get("title"),
                     "author": prompt.get("author"),
+                    "paper": prompt.get("paperlink"),
                     "date": prompt.get("date"),
                     "language": prompt.get("language"),
                     "task": prompt.get("task"),
@@ -28,12 +29,16 @@ def load_prompts():
     return prompts
 
 def render_prompt_details(prompt):
-    st.markdown(f"# {prompt['title']}")
+    st.markdown(f"# Card: {prompt['title']}")
     st.write("---")
     st.write(f"**Author:** {prompt['author']}")
+    st.write(f"**Paper:** {prompt['paper']}")
     st.write(f"**Date:** {prompt['date']}")
     st.write(f"**Language:** {prompt['language']}")
     st.write(f"**Task:** {prompt['task']}")
+    st.write(f"**Keywords:** {prompt['keywords']}")
+    st.write(f"**Version:** {prompt['version']}")
+    st.write(f"_Added By: {prompt['addedby']}_")
     st.write("---")
     st.write(prompt["content"])
 
@@ -80,10 +85,13 @@ def render_prompt_card(prompt):
 
             with col1:
                 st.write(f"### **Card:** {prompt['title']}")
+                st.write(f"**Author:** {prompt['author']}")
+                st.write(f"**Paper:** {prompt['paper']}")
+                st.write(f"**Date:** {prompt['date']}")
                 st.write(f"**Prompt Language:** {prompt['language']}")
                 st.write(f"**Annotation Task:** {prompt['task']}")
-                st.write(f"**Version:** {prompt['version']}")
                 st.write(f"**Keywords:** {prompt['keywords']}")
+                st.write(f"_Added by: {prompt['addedby']}_")
 
             with col2:
                 if st.button("View details", key=f"view-details-{prompt['id']}"):
@@ -98,7 +106,7 @@ def main():
     if "selected_prompt_id" not in st.session_state:
         st.session_state.selected_prompt_id = None
 
-    st.title("🏷️ Annotation PromptCards Archive")
+    st.title("Annotation PromptCards 🏷️ 📝 🤖")
     st.write("Welcome to the Prompt Archive! Click on the 'View details' button on each prompt card to see more information about the annotation prompt.")
     st.write("---")
 
@@ -106,9 +114,9 @@ def main():
     language_list = list(set([prompt['language'] for prompt in prompts]))
     task_list = list(set([prompt['task'] for prompt in prompts]))
 
-    st.sidebar.header("**Annotation PromptCards Archive**")
+    st.sidebar.header("**Annotation PromptCards**")
 
-    st.sidebar.write("A collection of prompts for annotation tasks in NLP. This is a work in progress. Please contribute your prompts via GitHub [[Upload]](https://github.com/chkla/PromptCards).")
+    st.sidebar.write("A collection of prompts for annotation tasks in NLP. This is a work in progress. Please contribute your prompts via GitHub [[Upload]](https://github.com/chkla/PromptCards) 🙏🏽.")
 
     # add a link to the GitHub repository
     st.sidebar.write("---")
@@ -140,7 +148,7 @@ def main():
             render_prompt_details(prompt)
 
     st.sidebar.write("---")
-    st.sidebar.write("Made with ❤️ and 🤖 by [Chkla](https://chkla.github.io/).")
+    st.sidebar.write("Made with ❤️ and 🤖 by [chkla](klamm.ai).")
 
 if __name__ == "__main__":
     main()

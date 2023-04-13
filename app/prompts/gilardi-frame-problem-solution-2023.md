@@ -1,13 +1,14 @@
 ---
-id: stance-detectionen-gilardi2023
-title: Stance Detection
-author: Gilardi et al. 2023
-date: 11.4.2023
+id: problem-solution-en-gilardi2023
+title: Problem/ Solution Frames
+author: Fabrizio Gilardi, Meysam Alizadeh and Maël Kubli
+paperlink: https://arxiv.org/abs/2303.15056 
+date: 27.3.2023
 language: en
-task: stance
+task: frames
 version: 1.0
 addedby: chkla
-keywords: stance, content moderation
+keywords: frames, content moderation
 ---
 
 ## Prompt Description
@@ -16,11 +17,19 @@ keywords: stance, content moderation
 
 ## Prompt Text
 
-In the context of content moderation, Section 230 is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users. This means that if someone posts something illegal or harmful on a website, the website itself cannot be sued for allowing it to be posted. However, websites can still choose to moderate content and remove anything that violates their own policies.<br>
+Content moderation can be seen from two different perspectives:<br>
+• Content moderation can be seen as a PROBLEM; for example, as a restriction of free speech<br>
+• Content moderation can be seen as a SOLUTION; for example, as a protection from harmful speech<br>
 <br>
 For each tweet in the sample, follow these instructions:<br>
 1. Carefully read the text of the tweet, paying close attention to details.<br>
-2. Classify the tweet as having a positive stance towards Section 230, a negative stance, or a neutral stance.<br>
+2. Classify the tweet as describing content moderation as a problem, as a solution, or neither.<br>
+<br>
+Tweets should be classified as describing content moderation as a PROBLEM if they emphasize negative effects of content moderation, such as restrictions to free speech, or the biases that can emerge from decisions regarding what users are allowed to post.<br>
+<br>
+Tweets should be classified as describing content moderation as a SOLUTION if they emphasize positive effects of content moderation, such as protecting users from various kinds of harmful content, including hate speech, misinformation, illegal adult content, or spam.<br>
+<br>
+Tweets should be classified as describing content moderation as NEUTRAL if they do not emphasize possible negative or positive effects of content moderation, for example if they simply report on the content moderation activity of social media platforms without linking them to potential advantages or disadvantages for users or stakeholders.
 
 ## Language
 
@@ -61,4 +70,8 @@ For each tweet in the sample, follow these instructions:<br>
 ## Related Research and References
 
 [List any relevant research papers, articles, or resources that informed the creation of the prompt or are closely related to it, especially in the area of artificial annotation with generative models. Include proper citations where applicable.]
+
+## Cite
+
+>> Fabrizio Gilardi, Meysam Alizadeh, Maël Kubli (2023) "ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks" [[Paper]](https://arxiv.org/abs/2303.15056)
 

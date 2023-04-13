@@ -1,8 +1,9 @@
 ---
 id: topic-detection-gilardi2023
 title: Topic Detection
-author: Gilardi et al. 2023
-date: 11.4.2023
+author: Fabrizio Gilardi, Meysam Alizadeh and Maël Kubli
+paperlink: https://arxiv.org/abs/2303.15056 
+date: 27.3.2023
 language: en
 task: topic detection
 version: 1.0
@@ -68,3 +69,6 @@ For each tweet in the sample, follow these instructions:<br>
 
 [List any relevant research papers, articles, or resources that informed the creation of the prompt or are closely related to it, especially in the area of artificial annotation with generative models. Include proper citations where applicable.]
 
+## Cite
+
+>> Fabrizio Gilardi, Meysam Alizadeh, Maël Kubli (2023) "ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks" [[Paper]](https://arxiv.org/abs/2303.15056)
