@@ -17,11 +17,11 @@ keywords: stance, content moderation
 
 ## Prompt Text
 
-In the context of content moderation, Section 230 is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users. This means that if someone posts something illegal or harmful on a website, the website itself cannot be sued for allowing it to be posted. However, websites can still choose to moderate content and remove anything that violates their own policies.<br>
-<br>
-For each tweet in the sample, follow these instructions:<br>
-1. Carefully read the text of the tweet, paying close attention to details.<br>
-2. Classify the tweet as having a positive stance towards Section 230, a negative stance, or a neutral stance.<br>
+In the context of content moderation, Section 230 is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users. This means that if someone posts something illegal or harmful on a website, the website itself cannot be sued for allowing it to be posted. However, websites can still choose to moderate content and remove anything that violates their own policies.
+
+For each tweet in the sample, follow these instructions:
+1. Carefully read the text of the tweet, paying close attention to details.
+2. Classify the tweet as having a positive stance towards Section 230, a negative stance, or a neutral stance.
 
 ## Language
 

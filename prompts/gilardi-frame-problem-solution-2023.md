@@ -17,18 +17,18 @@ keywords: frames, content moderation
 
 ## Prompt Text
 
-Content moderation can be seen from two different perspectives:<br>
-• Content moderation can be seen as a PROBLEM; for example, as a restriction of free speech<br>
-• Content moderation can be seen as a SOLUTION; for example, as a protection from harmful speech<br>
-<br>
-For each tweet in the sample, follow these instructions:<br>
-1. Carefully read the text of the tweet, paying close attention to details.<br>
-2. Classify the tweet as describing content moderation as a problem, as a solution, or neither.<br>
-<br>
-Tweets should be classified as describing content moderation as a PROBLEM if they emphasize negative effects of content moderation, such as restrictions to free speech, or the biases that can emerge from decisions regarding what users are allowed to post.<br>
-<br>
-Tweets should be classified as describing content moderation as a SOLUTION if they emphasize positive effects of content moderation, such as protecting users from various kinds of harmful content, including hate speech, misinformation, illegal adult content, or spam.<br>
-<br>
+Content moderation can be seen from two different perspectives:
+• Content moderation can be seen as a PROBLEM; for example, as a restriction of free speech
+• Content moderation can be seen as a SOLUTION; for example, as a protection from harmful speech
+
+For each tweet in the sample, follow these instructions:
+1. Carefully read the text of the tweet, paying close attention to details.
+2. Classify the tweet as describing content moderation as a problem, as a solution, or neither.
+
+Tweets should be classified as describing content moderation as a PROBLEM if they emphasize negative effects of content moderation, such as restrictions to free speech, or the biases that can emerge from decisions regarding what users are allowed to post.
+
+Tweets should be classified as describing content moderation as a SOLUTION if they emphasize positive effects of content moderation, such as protecting users from various kinds of harmful content, including hate speech, misinformation, illegal adult content, or spam.
+
 Tweets should be classified as describing content moderation as NEUTRAL if they do not emphasize possible negative or positive effects of content moderation, for example if they simply report on the content moderation activity of social media platforms without linking them to potential advantages or disadvantages for users or stakeholders.
 
 ## Language

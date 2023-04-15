@@ -1,15 +1,15 @@
 ---
-id: topic-detection-gilardi2023
-title: Topic Detection
-author: Fabrizio Gilardi, Meysam Alizadeh and Maël Kubli
-paperlink: https://arxiv.org/abs/2303.15056 
-date: 27.3.2023
-language: en
-task: topic detection
-version: 1.0
-addedby: chkla
-keywords: content moderation, topic detection
+Id: [author-title-year]
+Title: [Title of your prompt]
+Author: [Your name or organization]
+Paperlink: [Link to the paper]
+Date: [Date created or updated]
+Language: [Language of the prompt]
+Task: [NLP task]
+Version: [Version number, e.g., 1.0]
+Keywords: [Keywords of the prompt]
 ---
+
 
 ## Prompt Description
 
@@ -17,17 +17,7 @@ keywords: content moderation, topic detection
 
 ## Prompt Text
 
-Tweets about content moderation may also discuss other related topics, such as:
-1. Section 230, which is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users (SECTION 230).
-2. The decision by many social media platforms, such as Twitter and Facebook, to suspend Donald Trump’s account (TRUMP BAN).
-3. Requests directed to Twitter’s support account or help center (TWITTER SUPPORT).
-4. Social media platforms’ policies and practices, such as community guidelines or terms of service (PLATFORM POLICIES).
-5. Complaints about platform’s policy and practices in deplatforming and content moderation or suggestions to suspend particular accounts, or complaints about accounts being suspended or reported (COMPLAINTS).
-6. If a text is not about the SECTION 230, COMPLAINTS, TRUMP BAN, TWIT- TER SUPPORT, and PLATFORM POLICIES, then it should be classified in OTHER class (OTHER).
-
-For each tweet in the sample, follow these instructions:
-1. Carefully read the text of the tweet, paying close attention to details.
-2. Please classify the following text according to topic (defined by function of the text, author’s purpose and form of the text). You can choose from the following classes: SECTION 230, TRUMP BAN, COMPLAINTS, TWITTER SUPPORT, PLATFORM POLICIES, and OTHER
+[Insert the complete prompt text here, including any specific instructions or formatting.]
 
 ## Language
 
@@ -71,4 +61,4 @@ For each tweet in the sample, follow these instructions:
 
 ## Cite
 
->> Fabrizio Gilardi, Meysam Alizadeh, Maël Kubli (2023) "ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks" [[Paper]](https://arxiv.org/abs/2303.15056)
+[Add the relevant publication]
