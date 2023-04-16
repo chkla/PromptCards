@@ -3,7 +3,7 @@
 PromptCards are designed to facilitate prompt sharing and reuse in research, providing a structured template for documenting and comparing prompts, especially for artificial zero-shot annotations using generative models. By using a consistent format, researchers can reuse existing prompts in new contexts and compare results across projects that have employed the same prompts.
 
 Check out ⬇️:
-* Annotation PromptCards [![Google Slides](https://img.shields.io/badge/Archive-yellow?logo=google-slides)](https://huggingface.co/spaces/chkla/AnnotationPromptCards)
+* Annotation PromptCards [![Google Slides](https://img.shields.io/badge/Archive-yellow?logo=google-slides)](https://flask-prompt-annotations.vercel.app)
 * Annotation PromptCards [![Google Slides](https://img.shields.io/badge/Playground-green?logo=google-slides)](https://huggingface.co/spaces/chkla/PromptCardsPlayground)
 
 Some studies have highlighted the potential of generative models as a data annotation tool (Huang et al., 2023, Wu et al. 2023, Törnberg 2023). For instance, Gilardi et al. (2023) reported that ChatGPT outperforms MTurk in four out of five tasks. This has prompted researchers to ask if we are witnessing the beginning of the end for manual linguistic data annotation (Kuzman et al., 2023).
