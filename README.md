@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://flask-prompt-annotations.vercel.app">
+    <img src="https://img.shields.io/badge/Number%20of%20Prompts-6-brightgreen" alt="Number of Prompts">
+  </a>
+  <a href="https://flask-prompt-annotations.vercel.app">
+    <img src="https://img.shields.io/badge/Website-Online-green" alt="Website Status">
+  </a>
+  <a href="https://huggingface.co/spaces/chkla/PromptCardsPlayground">
+    <img src="https://img.shields.io/badge/AInnotator-Online-blue" alt="Tool Status">
+  </a>
+</p>
+
 # AnnotationPromptCards 🏷️: A Way for Structured Prompt Sharing and Reuse in Artificial Zero-Shot Annotations with Generative Models
 
 PromptCards are designed to facilitate prompt sharing and reuse in research, providing a structured template for documenting and comparing prompts, especially for artificial zero-shot annotations using generative models. By using a consistent format, researchers can reuse existing prompts in new contexts and compare results across projects that have employed the same prompts.
